@@ -8,7 +8,7 @@ build-backend = "poetry.core.masonry.api"
 name = "DioMindmap"
 version = "0.1.0"
 description = ""
-authors = [ "Anrich van Schalkwyk <@anrichvs>" ]
+authors = [ "Anrich van Schalkwyk <anrichvs@gmail.com>" ]
 readme = "README.md"
 
   [tool.poetry.dependencies]

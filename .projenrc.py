@@ -4,7 +4,7 @@ project = PythonProject(
     name="DioMindmap",
     description="Create Draw.io mind map diagrams with indented text files.",
     module_name="diomindmap",
-    version="0.1.1",
+    version="0.1.2",
     author_email="anrichvs@gmail.com",
     author_name="Anrich van Schalkwyk",
     deps=["typer@0.9.0",
@@ -13,7 +13,10 @@ project = PythonProject(
     pytest=False,
     poetry=True,
     poetry_options={
-        "repository": "https://github.com/AnrichVS/diomindmap"
+        "repository": "https://github.com/AnrichVS/diomindmap",
+        "scripts": {
+            "diomindmap": "diomindmap.__main__:main"
+        }
     }
 )
 project.add_git_ignore(".idea/")

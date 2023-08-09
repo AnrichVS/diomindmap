@@ -21,16 +21,16 @@ The following diagram will be generated (in Draw.io compatible XML format):
 ## Installation
 
 ```bash
-pip install diomindmap
+pipx install diomindmap
 ```
 
 ## Usage
 
 ```bash
-diomindmap --input-file <input_file> --output-file <output_file>
+diomindmap generate -i <input_file> -o <output_file>
 ```
 
-Use `diomindmap --help` for more information on command line arguments.
+Use `diomindmap generate --help` for more information on command line arguments.
 
 ### Input file format
 

@@ -6,14 +6,14 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "DioMindmap"
-version = "0.1.1"
+version = "0.1.4"
 description = "Create Draw.io mind map diagrams with indented text files."
 authors = [ "Anrich van Schalkwyk <anrichvs@gmail.com>" ]
 readme = "README.md"
 repository = "https://github.com/AnrichVS/diomindmap"
 
   [tool.poetry.scripts]
-  diomindmap = "diomindmap:main"
+  diomindmap = "diomindmap.__main__:main"
 
   [tool.poetry.dependencies]
   N2G = "0.3.3"
